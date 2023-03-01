@@ -1,0 +1,71 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside {
+    background-color: #ebe0ad;
+}
+header {
+    display: flex;
+flex-basis: 100%;
+justify-content: center;
+align-items: center;
+background-color: #ebc2ad;
+}
+main{
+display: flex;
+flex-wrap: wrap;
+background-color: #adebad;
+flex-basis: 50%;
+}
+aside{
+    display: flex;
+flex-wrap: wrap;
+flex-basis: 25%;
+background-color: #add6eb;
+flex-direction: column;
+}
+footer{
+    display: flex;
+flex-basis: 100%;
+justify-content: center;
+align-items: center;
+}
+#mainFooter{
+background-color: #ebadeb;
+}
+section{
+    background-color: #ebe0ad;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+    
+}
+section p{
+    padding: 20px;
+}
+main>p {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 45%;
+    border: 1px solid purple;
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+aside>p{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+aside p:nth-of-type(2),
+aside p:nth-of-type(3) {
+    align-self: center;
+}
+aside p:nth-of-type(1){
+    align-self: flex-start;
+}
+aside p:nth-of-type(4){
+    align-self: flex-end;
+}
